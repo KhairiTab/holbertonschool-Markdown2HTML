@@ -1,2 +1,14 @@
-# Markdown to HTML
-Markdown is awesome! All your README.md are made in Markdown, but do you know how GitHub are rendering them?
+# MArkdown --> HTML
+
+This is an example project to demonstrate Markdown to HTML conversion.
+
+## Features
+
+- Converts headings to HTML `<h1>` through `<h6>`.
+- Supports basic paragraph conversion.
+- Handles file errors gracefully.
+
+## Usage
+
+```bash
+./markdown2html.py README.md README.html
